@@ -10,23 +10,23 @@ Led 0805 SMD Red Clear,0.10€,10,1.00€,https://grobotronics.com/led-0805-smd-
 Slide Switch Mini SPDT - 0.3A/30VDC,0.20€,1,0.20€,https://grobotronics.com/mini-spdt-0.3a-30vdc.html
 Soldering Wire Brofil 60 100g 0.5mm,9.90€,1,9.90€,https://grobotronics.com/soldering-wire-brofil-60-100g-0.5mm.html
 Shipping ,0.00€,0,0.00€,
-TOTAL,,45,31.70€,
-,,,,
+TOTAL (EUR),,45,31.70€,
+TOTAL (USD),,,$35.50,
 DigiKey,,,,
-MCP73831T-2ACI/OT | Charger,0.83€,1,0.83€,https://www.digikey.gr/en/products/detail/microchip-technology/MCP73831T-2ACI-OT/964301
-XC6220B331MR-G | LDO Reg/tor,1.07€,1,1.07€,https://www.digikey.gr/en/products/detail/torex-semiconductor-ltd/XC6220B331MR-G/2138177?s=N4IgTCBcDaIBoGEBsYwAYBCBmLBGAsgEogC6AvkA
-PCF8563T | RTC,1.50€,1,1.50€,https://www.digikey.gr/en/products/detail/umw/PCF8563T/29800024
-"Q 0,032768-JTX310-7-20-T1-70K-LF | Quartz",0.30€,1,0.30€,https://www.digikey.gr/en/products/detail/jauch-quartz/Q-0-032768-JTX310-7-20-T1-70K-LF/26600946
-1N5819 | Diode,0.31€,2,0.62€,https://www.digikey.gr/en/products/detail/diotec-semiconductor/1N5819/13164178
-RC0805JR-075K1L (5.1kΩ),0.11€,1,0.11€,https://www.digikey.gr/en/products/detail/yageo/RC0805JR-075K1L/728338
-C0805C104K5RACTU (100nF),0.20€,1,0.20€,https://www.digikey.gr/en/products/detail/kemet/C0805C104K5RACTU/411169
-C0805C105K4RACTU (1uF),0.36€,2,0.72€,https://www.digikey.gr/en/products/detail/kemet/C0603C105K4RACTU/2199788
-C0805C475K4RACTU (4.7uF),0.40€,2,0.79€,https://www.digikey.gr/en/products/detail/kemet/C0805C475K4RACTU/3317621
-CL21A226KOQNNNG (22uF),0.50€,1,0.50€,https://www.digikey.gr/en/products/detail/samsung-electro-mechanics/CL21A226KOQNNNG/3894433
-530470210 | Molex Connector,0.20€,1,0.20€,https://www.digikey.gr/en/products/detail/molex/0530470210/242853
-Shipping ,0.00€,1,0.00€,SEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
-TOTAL,,,6.83€,
-GRAND TOTAL (EUR),,,38.53€,
-GRAND TOTAL (USD),,,$43.15,
-Conversion Rate (1€=_$),$1.12,,,
+MCP73831T-2ACI/OT | Charger,$0.83,1,$0.83,https://www.digikey.gr/en/products/detail/microchip-technology/MCP73831T-2ACI-OT/964301
+XC6220B331MR-G | LDO Reg/tor,$1.07,1,$1.07,https://www.digikey.gr/en/products/detail/torex-semiconductor-ltd/XC6220B331MR-G/2138177?s=N4IgTCBcDaIBoGEBsYwAYBCBmLBGAsgEogC6AvkA
+PCF8563T | RTC,$1.50,1,$1.50,https://www.digikey.gr/en/products/detail/umw/PCF8563T/29800024
+"Q 0,032768-JTX310-7-20-T1-70K-LF | Quartz",$0.30,1,$0.30,https://www.digikey.gr/en/products/detail/jauch-quartz/Q-0-032768-JTX310-7-20-T1-70K-LF/26600946
+SD0805S040S1R0 | Schottky Diode,$0.66,2,$1.31,https://www.digikey.gr/en/products/detail/diotec-semiconductor/1N5819/13164178
+RC0805JR-075K1L (5.1kΩ),$0.11,1,$0.11,https://www.digikey.gr/en/products/detail/yageo/RC0805JR-075K1L/728338
+C0805C104K5RACTU (100nF),$0.20,1,$0.20,https://www.digikey.gr/en/products/detail/kemet/C0805C104K5RACTU/411169
+C0805C105K4RACTU (1uF),$0.36,2,$0.72,https://www.digikey.gr/en/products/detail/kemet/C0603C105K4RACTU/2199788
+C0805C475K4RACTU (4.7uF),$0.40,2,$0.79,https://www.digikey.gr/en/products/detail/kemet/C0805C475K4RACTU/3317621
+CL21A226KOQNNNG (22uF),$0.50,1,$0.50,https://www.digikey.gr/en/products/detail/samsung-electro-mechanics/CL21A226KOQNNNG/3894433
+530470210 | Molex Connector,$0.20,1,$0.20,https://www.digikey.gr/en/products/detail/molex/0530470210/242853
+Shipping ,$0.00,1,$0.00,SEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+TOTAL (USD),,,$7.53,
 ,,,,
+GRAND TOTAL (USD),,,$43.03,
+GRAND TOTAL (EUR),,,38.42€,
+Conversion Rate (1€=_$),$1.12,,,
