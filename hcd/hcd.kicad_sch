@@ -4250,7 +4250,7 @@
 		(uuid "384df352-ac1c-4549-9f78-4ae87060ceed")
 	)
 	(label "OSCI"
-		(at 100.33 54.61 0)
+		(at 107.95 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4280,7 +4280,7 @@
 		(uuid "44630fbf-81fb-449b-83d6-21c9bc76c9cd")
 	)
 	(label "OSCO"
-		(at 107.95 54.61 0)
+		(at 100.33 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
