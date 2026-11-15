@@ -33,13 +33,13 @@ School days run on a timetable of oddly spaced bells (08:15, 09:00, 09:55, 10:50
 
 | GPIO | Function |
 |---|---|
-| 1 | OLED SDA |
-| 2 | OLED SCL |
+| 1 | OLED SCL |
+| 2 | OLED SDA |
 | 4 | PCF8563 INT (10 kOhm pull-up) |
 | 5 | PCF8563 SCL |
 | 6 | PCF8563 SDA |
-| 11 | Left button (SW2), external 10 kOhm pull-up |
-| 12 | Right button (SW3), external 10 kOhm pull-up |
+| 12 | Left button (SW3), internal pull-up |
+| 13 | Right button (SW2), internal pull-up |
 
 ## Configure and install
 
@@ -86,11 +86,11 @@ Then:
 | WR08X5101FTL (5.1kΩ) | 0.19€  | 1  | 0.19€  | https://www.inter-shop.gr/shop/hlektronika/%cf%80%ce%b1%ce%b8%ce%b7%cf%84%ce%b9%ce%ba%ce%ac-%ce%b5%ce%be%ce%b1%cf%81%cf%84%ce%ae%ce%bc%ce%b1%cf%84%ce%b1/%ce%b1%ce%bd%cf%84%ce%b9%cf%83%cf%84%ce%ac%cf%83%ce%b5%ce%b9%cf%82/%ce%b1%ce%bd%cf%84%ce%b9%cf%83%cf%84%ce%ac%cf%83%ce%b5%ce%b9%cf%82-smd-%ce%b1%ce%bd%cf%84%ce%b9%cf%83%cf%84%ce%ac%cf%83%ce%b5%ce%b9%cf%82-%cf%80%ce%b1%ce%b8%ce%b7%cf%84%ce%b9%ce%ba%ce%ac-%ce%b5%ce%be/wr08x5101ftl-%ce%b1%ce%bd%cf%84%ce%af%cf%83%cf%84%ce%b1%cf%83%ce%b7-thick-film-0805-51k%cf%89-125mw-%c2%b11-150v-100ppm-c-wr08x5101ftl/|
 | 0805B104K101CT (100nF)  | 0.44€  | 1  | 0.44€  | https://www.inter-shop.gr/shop/hlektronika/%cf%80%ce%b1%ce%b8%ce%b7%cf%84%ce%b9%ce%ba%ce%ac-%ce%b5%ce%be%ce%b1%cf%81%cf%84%ce%ae%ce%bc%ce%b1%cf%84%ce%b1/%cf%80%cf%85%ce%ba%ce%bd%cf%89%cf%84%ce%ad%cf%82/%cf%80%cf%85%ce%ba%ce%bd%cf%89%cf%84%ce%ad%cf%82-mlcc/%cf%80%cf%85%ce%ba%ce%bd%cf%89%cf%84%ce%ad%cf%82-mlcc-smd-%cf%80%cf%85%ce%ba%ce%bd%cf%89%cf%84%ce%ad%cf%82-mlcc/0805b104k101ct-%cf%80%cf%85%ce%ba%ce%bd%cf%89%cf%84%ce%ae%cf%82-%ce%ba%ce%b5%cf%81%ce%b1%ce%bc%ce%b9%ce%ba%cf%8c-100nf-100v-x7r-%c2%b110-0805-0805b104k101ct/|
 | 08055D105KAT2A (1uF) | 0.85€  | 2  | 1.69€  | https://www.inter-shop.gr/shop/hlektronika/%cf%80%ce%b1%ce%b8%ce%b7%cf%84%ce%b9%ce%ba%ce%ac-%ce%b5%ce%be%ce%b1%cf%81%cf%84%ce%ae%ce%bc%ce%b1%cf%84%ce%b1/%cf%80%cf%85%ce%ba%ce%bd%cf%89%cf%84%ce%ad%cf%82/%cf%80%cf%85%ce%ba%ce%bd%cf%89%cf%84%ce%ad%cf%82-mlcc/%cf%80%cf%85%ce%ba%ce%bd%cf%89%cf%84%ce%ad%cf%82-mlcc-smd-%cf%80%cf%85%ce%ba%ce%bd%cf%89%cf%84%ce%ad%cf%82-mlcc/08055d105kat2a-%cf%80%cf%85%ce%ba%ce%bd%cf%89%cf%84%ce%ae%cf%82-%ce%ba%ce%b5%cf%81%ce%b1%ce%bc%ce%b9%ce%ba%cf%8c-mlcc-1uf-50v-x5r-%c2%b110-smd-0805-180mm-08055d105kat2a/|
-| EMK212B7475KG (4.7uF)| 0.85€  | 1  | 0.85€  | https://www.inter-shop.gr/shop/hlektronika/%cf%80%ce%b1%ce%b8%ce%b7%cf%84%ce%b9%ce%ba%ce%ac-%ce%b5%ce%be%ce%b1%cf%81%cf%84%ce%ae%ce%bc%ce%b1%cf%84%ce%b1/%cf%80%cf%85%ce%ba%ce%bd%cf%89%cf%84%ce%ad%cf%82/%cf%80%cf%85%ce%ba%ce%bd%cf%89%cf%84%ce%ad%cf%82-mlcc/%cf%80%cf%85%ce%ba%ce%bd%cf%89%cf%84%ce%ad%cf%82-mlcc-smd-%cf%80%cf%85%ce%ba%ce%bd%cf%89%cf%84%ce%ad%cf%82-mlcc/emk212b7475kg-t-%cf%80%cf%85%ce%ba%ce%bd%cf%89%cf%84%ce%ae%cf%82-%ce%ba%ce%b5%cf%81%ce%b1%ce%bc%ce%b9%ce%ba%cf%8c-mlcc-47uf-16v-x7r-%c2%b110-smd-0805-2x125mm-emk212b7475kg-t/ |
+| EMK212B7475KG (4.7uF)| 0.85€  | 2  | 1.70€  | https://www.inter-shop.gr/shop/hlektronika/%cf%80%ce%b1%ce%b8%ce%b7%cf%84%ce%b9%ce%ba%ce%ac-%ce%b5%ce%be%ce%b1%cf%81%cf%84%ce%ae%ce%bc%ce%b1%cf%84%ce%b1/%cf%80%cf%85%ce%ba%ce%bd%cf%89%cf%84%ce%ad%cf%82/%cf%80%cf%85%ce%ba%ce%bd%cf%89%cf%84%ce%ad%cf%82-mlcc/%cf%80%cf%85%ce%ba%ce%bd%cf%89%cf%84%ce%ad%cf%82-mlcc-smd-%cf%80%cf%85%ce%ba%ce%bd%cf%89%cf%84%ce%ad%cf%82-mlcc/emk212b7475kg-t-%cf%80%cf%85%ce%ba%ce%bd%cf%89%cf%84%ce%ae%cf%82-%ce%ba%ce%b5%cf%81%ce%b1%ce%bc%ce%b9%ce%ba%cf%8c-mlcc-47uf-16v-x7r-%c2%b110-smd-0805-2x125mm-emk212b7475kg-t/ |
 | CC0805KKX5R5BB226 (22uF)| 0.97€  | 1  | 0.97€  | https://www.inter-shop.gr/shop/hlektronika/%cf%80%ce%b1%ce%b8%ce%b7%cf%84%ce%b9%ce%ba%ce%ac-%ce%b5%ce%be%ce%b1%cf%81%cf%84%ce%ae%ce%bc%ce%b1%cf%84%ce%b1/%cf%80%cf%85%ce%ba%ce%bd%cf%89%cf%84%ce%ad%cf%82/%cf%80%cf%85%ce%ba%ce%bd%cf%89%cf%84%ce%ad%cf%82-mlcc/%cf%80%cf%85%ce%ba%ce%bd%cf%89%cf%84%ce%ad%cf%82-mlcc-smd-%cf%80%cf%85%ce%ba%ce%bd%cf%89%cf%84%ce%ad%cf%82-mlcc/cc0805kkx5r5bb226-%cf%80%cf%85%ce%ba%ce%bd%cf%89%cf%84%ce%ae%cf%82-%ce%ba%ce%b5%cf%81%ce%b1%ce%bc%ce%b9%ce%ba%cf%8c-mlcc-22uf-63v-x5r-%c2%b110-smd-0805-cc0805kkx5r5bb226/  |
 | Shipping | 2.99€  | 1  | 2.99€  | ACS Lockers |
-| VAT|  | | 3.55€  | |
-| TOTAL (EUR) |  | 11 | 18.35€ | |
+| VAT|  | | 3.76€  | |
+| TOTAL (EUR) |  | 12 | 19.41€ | |
 | |  | |  | |
 | JLCPCB|  | |  | |
 | PCB, 34*41mm, 5pcs| 3.62€  | 1  | 3.62€  | |
@@ -98,9 +98,7 @@ Then:
 | VAT, Duties | 7.23€  | 1  | 7.23€  | |
 | TOTAL (EUR) |  | | 16.34€ | |
 | |  | |  | |
-| GRAND TOTAL (EUR) |  | | 62.11€ | |
-| GRAND TOTAL (USD) |  | | $68.33 | |
-| Conversion Rate (1€=_$) (15 Nov) | $1.10  | |  | |
+| GRAND TOTAL (EUR) |  | | 63.17€ | (about 69.49 USD, considering 1€=$1.10 (as of 15 Nov) |
 
 
 ## Features that are Work In Progress

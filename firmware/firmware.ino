@@ -13,13 +13,13 @@
 #include <Adafruit_SSD1306.h>
 
 // Pins
-constexpr int SCR_SDA  = 1;
-constexpr int SCR_SCL  = 2;
+constexpr int SCR_SDA  = 2;
+constexpr int SCR_SCL  = 1;
 constexpr int PCF_INT  = 4;
 constexpr int PCF_SCL  = 5;
 constexpr int PCF_SDA  = 6;
-constexpr int SW_LEFT  = 11; // SW2
-constexpr int SW_RIGHT = 15; // SW3
+constexpr int SW_LEFT  = 12; // SW3
+constexpr int SW_RIGHT = 13; // SW2
 
 constexpr uint32_t SCREEN_TIMEOUT_MS = 5000; // how long the screen stays on before sleeping
 constexpr uint32_t PICKER_IDLE_MS = 10000; // picker gives up after this long without a press
@@ -163,9 +163,9 @@ void setScreen(ScreenState s) { // sleeping
   else
     display.ssd1306_command(SSD1306_DISPLAYON);    // panel on
 
-  Serial.print("screen: "); // debug, will remove
+//  Serial.print("screen: "); // debug, will remove
 //  Serial.println(s == SCREEN_SLEEP ? "SLEEP" : s == SCREEN_AWAKE ? "AWAKE" : "LOCKED"); (DEBUG)
-
+}
 void showPicker() { // time picker for the custom timer (RB)
   char buf[8];
   snprintf(buf, sizeof buf, "%dm", pickerMinutes);   // e.g. "10m"

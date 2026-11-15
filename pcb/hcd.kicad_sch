@@ -3861,6 +3861,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 27.94) (xy 125.73 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ff5ef9f-4d2d-40e9-a53b-ae2f058e5c7e")
+	)
+	(wire
+		(pts
 			(xy 69.85 40.64) (xy 58.42 40.64)
 		)
 		(stroke
@@ -3931,6 +3941,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 27.94) (xy 69.85 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b975e6e8-a0ae-4edb-9ae5-719da2ae772c")
+	)
+	(wire
+		(pts
 			(xy 107.95 21.59) (xy 107.95 31.75)
 		)
 		(stroke
@@ -3961,6 +3981,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 25.4) (xy 125.73 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf820c18-ad6a-444d-96a2-97401646b526")
+	)
+	(wire
+		(pts
 			(xy 101.6 21.59) (xy 101.6 31.75)
 		)
 		(stroke
@@ -3968,16 +3998,6 @@
 			(type default)
 		)
 		(uuid "d1e50dd9-a409-425b-a106-19239b77e62d")
-	)
-	(wire
-		(pts
-			(xy 69.85 30.48) (xy 58.42 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d44481fd-34af-4ed0-833a-92496d084967")
 	)
 	(wire
 		(pts
@@ -4011,6 +4031,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 30.48) (xy 69.85 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8a1e29f-e83f-4f88-9555-910e4494002a")
+	)
+	(wire
+		(pts
 			(xy 25.4 17.78) (xy 13.97 17.78)
 		)
 		(stroke
@@ -4028,16 +4058,6 @@
 			(type default)
 		)
 		(uuid "f557971e-eed8-4c0f-9bff-9acb5609726a")
-	)
-	(wire
-		(pts
-			(xy 69.85 27.94) (xy 58.42 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc360ecd-f239-467d-8aae-5b6793bc9c4c")
 	)
 	(wire
 		(pts
@@ -4200,7 +4220,7 @@
 		(uuid "28a5e4c4-6de0-4d88-bc7a-7afe0f6e097c")
 	)
 	(label "SCL(SCR)"
-		(at 58.42 30.48 0)
+		(at 58.42 27.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4229,7 +4249,7 @@
 		)
 		(uuid "2c54800b-a0fc-411d-abad-1219f28b448f")
 	)
-	(label "12"
+	(label "13"
 		(at 116.84 60.96 0)
 		(effects
 			(font
@@ -4399,8 +4419,8 @@
 		)
 		(uuid "70c16aca-e1cf-4bdf-bafc-937c672817cd")
 	)
-	(label "12"
-		(at 125.73 25.4 0)
+	(label "13"
+		(at 123.19 25.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4530,7 +4550,7 @@
 		(uuid "989cfbc3-d011-4394-a955-78691b7a9873")
 	)
 	(label "SDA(SCR)"
-		(at 58.42 27.94 0)
+		(at 58.42 30.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4589,8 +4609,8 @@
 		)
 		(uuid "af8bd2e9-3d65-414f-b490-3eb349a3663a")
 	)
-	(label "11"
-		(at 125.73 27.94 0)
+	(label "12"
+		(at 123.19 27.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4619,7 +4639,7 @@
 		)
 		(uuid "bd2b3445-1835-481c-a49c-c1166072ba51")
 	)
-	(label "11"
+	(label "12"
 		(at 116.84 71.12 0)
 		(effects
 			(font
