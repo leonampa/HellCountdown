@@ -602,7 +602,7 @@
       "netlist": "",
       "plot": "/media/leona/SSD/hcd/gerbers",
       "specctra_dsn": "",
-      "step": "",
+      "step": "hcd.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
